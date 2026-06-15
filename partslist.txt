@@ -1,0 +1,29 @@
+Partslist for Yamaha YIS503 RAM board
+-------------------------------------
+
+- Ceramic capacitor 0.1uF 0805		- 5
+- Tantalum capacitor 10uF 10v A/B size	- 1
+- 74HC00 SOIC				- 1
+- 74HC257 SOIC				- 1
+- 74HC365 SOIC				- 1
+- 74HC670 SOIC				- 2
+- SRAM SOP32				- 1 or 2 (512kb or 1024kb)
+- Resistor 2.2k 0805			- 1 (only for 512kb configuration)
+- Dual row jumper pins 2x18		- 1
+
+The following SRAM chips can be used:
+
+- SAMSUNG  K6X4008C1F-BF55
+- HITACHI  HM628512LFP-7
+- ALLIANCE AS6C4008-55SIN
+
+Also the KM684000ALG/LG chips may be used. The latency of the chips must be within 100ns.
+
+
+IMPOTRTANT!
+
+When using only 512kb of RAM (1 SRAM chip), install the 2.2k resistor on R1 and cut the wire
+between the pads that are marked as R2!
+
+When installing into Yamaha MSX1 please make sure that you solder the missing mapper chips on
+the mainboard, otherwise the RAM board will not work.

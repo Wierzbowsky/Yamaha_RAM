@@ -20,4 +20,6 @@ The following chips can be installed onto the board:
 
 These are SOP32 512kb chips. The timings are not impprtant. Anything from 50ns to 150ns works.
 
-By default the board needs 2 chips to be installed that will create 1mb of RAM expansion. However it's possible to install only one chip. To do this the bridge marked as R2 needs to be cut and a 2kOhm resistor needs to be soldered at R1. The single chip must be installed at DD3.
+By default the board needs 2 chips to be installed that will create 1mb of RAM expansion. However it's possible to
+install only one chip. To do this the bridge marked as R2 needs to be cut and a 2kOhm resistor needs to be soldered
+at R1. The single chip must be installed at DD3.
